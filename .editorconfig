@@ -9,11 +9,11 @@ insert_final_newline = true
 trim_trailing_whitespace = true
 max_line_length = off
 
-[*.{yaml,xml,toml,cson,xaml}]
+[*.{yaml,xml,toml,json,cson,xaml}]
 indent_size = 2
 
-[*.json]
-indent_size = 2
+[*.lua]
+indent_size = 3
 
 [*.md]
 trim_trailing_whitespace = false
