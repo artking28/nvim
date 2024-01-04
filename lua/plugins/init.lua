@@ -5,19 +5,23 @@ function this.plugins()
         {
             "rebelot/kanagawa.nvim",
             name = "kanagawa",
-            priority = 1000
-        }, {
+            priority = 1000,
+            lazy = true
+        },{
+            "folke/tokyonight.nvim",
+            priority = 1000,
+        },{
             "nvim-telescope/telescope.nvim",
             name = "telescope",
             tag = "0.1.4",
             dependencies = {
                 "nvim-lua/plenary.nvim"
             }
-        }, {
+        },{
             "nvim-treesitter/nvim-treesitter",
             name = "treesitter",
             build = ":TSUpdate"
-        }, {
+        },{
             "folke/noice.nvim",
             name = "noice",
             event = "VeryLazy",
