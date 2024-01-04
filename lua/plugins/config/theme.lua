@@ -1,4 +1,4 @@
--- Default options:
+
 require('kanagawa').setup({
    compile = false, -- enable compiling the colorscheme
    undercurl = true, -- enable undercurls
