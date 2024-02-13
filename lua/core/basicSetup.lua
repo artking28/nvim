@@ -1,4 +1,4 @@
-
+vim.g.mapleader = ","
 
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=3")
@@ -9,3 +9,5 @@ vim.wo.number = true
 vim.wo.relativenumber = true
 
 vim.cmd("set termguicolors")
+
+vim.cmd("set clipboard=unnamedplus")
